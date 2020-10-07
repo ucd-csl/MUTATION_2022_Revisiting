@@ -6,4 +6,5 @@ framework/lib/test_generation/*
 framework/test/*.log
 project_repos/*
 !project_repos/get_repos.sh
+major/
 work/
