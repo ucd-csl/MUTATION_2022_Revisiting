@@ -1,0 +1,10 @@
+Triggering test suites per bug
+0: 408
+1: 52
+<5: 124
+5-10: 192
+10: 55
+other: 0
+total: 831
+
+bugs with at least 1 triggering test suite: 423
