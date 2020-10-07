@@ -26,11 +26,11 @@
 
 =head1 NAME
 
-run_mutation.pl -- mutation analysis for generated test suites.
+run_pit.pl -- PIT mutation analysis for generated test suites.
 
 =head1 SYNOPSIS
 
-  run_mutation.pl -p project_id -d suite_dir -o out_dir [-f include_file_pattern] [-v version_id] [-t tmp_dir] [-D] [-A | -i mutate_classes]
+  run_pit.pl -p project_id -d suite_dir -o out_dir [-f include_file_pattern] [-v version_id] [-t tmp_dir] [-D] [-A | -i mutate_classes]
 
 =head1 OPTIONS
 

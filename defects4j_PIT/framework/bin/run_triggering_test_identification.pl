@@ -26,11 +26,11 @@
 
 =head1 NAME
 
-run_bug_detection.pl -- bug detection analysis for generated test suites.
+run_triggering_test_identification.pl -- identify triggering test methods for generated test suites.
 
 =head1 SYNOPSIS
 
-  run_bug_detection.pl -p project_id -d suite_dir -o out_dir [-f include_file_pattern] [-v version_id] [-t tmp_dir] [-D]
+  run_triggering_test_identification.pl -p project_id -d suite_dir -o out_dir [-f include_file_pattern] [-v version_id] [-t tmp_dir] [-D]
 
 =head1 OPTIONS
 
