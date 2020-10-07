@@ -113,7 +113,7 @@ use Pod::Usage;
 use Try::Tiny;
 
 my %cmd_opts;
-getopts('t:w:rs:i:e:a:o:', \%cmd_opts) or pod2usage( { -verbose => 1, -input => __FILE__} );
+getopts('t:w:rs:i:e:a:o:v:g:n:p:', \%cmd_opts) or pod2usage( { -verbose => 1, -input => __FILE__} );
 
 my $WORK_DIR    	= Utils::get_abs_path($cmd_opts{w} // ".");
 my $REL_TESTS   	= defined $cmd_opts{r} ? 1 : 0;
@@ -123,9 +123,10 @@ my $INSTRUMENT  	= $cmd_opts{i};
 my $EXCL        	= $cmd_opts{e};
 my $TEST_METHODS_FILE 	= $cmd_opts{a};
 my $OUTPUT_DIR 		= $cmd_opts{o};
-
-#Added function to get suite parameters
-(my $proj, my $gen, my $seed, my $version) = &GetSuiteParams($TEST_SUITE);
+my $proj		= $cmd_opts{p};
+my $gen			= $cmd_opts{g};
+my $seed		= $cmd_opts{n};
+my $version		= $cmd_opts{v};
 
 if ((defined $SINGLE_TEST || defined $TEST_SUITE) && $REL_TESTS==1) {
     pod2usage( { -verbose => 1, -input => __FILE__} );
@@ -222,19 +223,4 @@ if (! $mut_result) {
 
 exit 0;
 
-sub GetSuiteParams {
-	my $suite = $_[0];
-	
-	#Parse suite location to get test method file
-        my @split = split('/', $suite);
 
-        my $project = $split[6];
-        my $gen = $split[7];
-        my $seed = $split[8];
-        my $tar_file = $split[9];
-	
-        my @tar_split = split('-', $tar_file);
-        my $version = $tar_split[1];
-
-	return ($project, $gen, $seed, $version);
-}
