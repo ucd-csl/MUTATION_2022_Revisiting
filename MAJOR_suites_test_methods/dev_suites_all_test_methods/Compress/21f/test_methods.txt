@@ -1,0 +1,17 @@
+org.apache.commons.compress.archivers.SevenZTestCase
+testSevenZArchiveCreationUsingCopy()
+testSevenZArchiveCreationUsingBZIP2()
+testSevenZArchiveCreationUsingLZMA2()
+testSevenZArchiveCreationUsingDeflate()
+org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest
+testSevenEmptyFiles()
+testEightFilesSomeNotEmpty()
+testSixEmptyFiles()
+testEightEmptyFiles()
+testNineEmptyFiles()
+testSixFilesSomeNotEmpty()
+testCantFinishTwice()
+testNineFilesSomeNotEmpty()
+testDirectoriesOnly()
+testDirectoriesAndEmptyFiles()
+testSevenFilesSomeNotEmpty()

@@ -1,0 +1,13 @@
+org.apache.commons.math.distribution.PoissonDistributionTest
+testDegenerateInverseCumulativeProbability()
+testCumulativeProbabilitySpecial()
+testMean()
+testLargeMeanInverseCumulativeProbability()
+testNormalApproximateProbability()
+testLargeMeanCumulativeProbability()
+testDensities()
+testInverseCumulativeProbabilities()
+testSampling()
+testCumulativeProbabilities()
+testIllegalArguments()
+testFloatingPointArguments()

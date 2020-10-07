@@ -1,0 +1,11 @@
+org.apache.commons.lang3.reflect.TypeUtilsTest
+testGetTypeArguments()
+testIsInstance()
+testIsAssignable()
+testGetPrimitiveArrayComponentType()
+testTypesSatisfyVariables()
+testIsArrayTypeClasses()
+testDetermineTypeVariableAssignments()
+testGetRawType()
+testGetArrayComponentType()
+testIsArrayGenericTypes()

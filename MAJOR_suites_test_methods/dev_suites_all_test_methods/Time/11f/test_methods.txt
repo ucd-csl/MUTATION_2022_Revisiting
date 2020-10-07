@@ -1,0 +1,9 @@
+org.joda.time.tz.TestCompiler
+test_2400_fromDay()
+test_Amman_2003()
+test_Amman_2004()
+test_Amman_2005()
+test_Amman_2006()
+testDateTimeZoneBuilder()
+testCompile()
+test_2400_last()

@@ -1,0 +1,10 @@
+com.google.gson.internal.bind.RecursiveTypesResolveTest
+testDoubleSupertype()
+testIssue440WeakReference()
+testSubSupertype()
+testDoubleSubtype()
+testRecursiveTypeVariablesResolve12()
+testRecursiveTypeVariablesResolve1()
+testIssue603PrintStream()
+testSuperSubtype()
+testRecursiveResolveSimple()

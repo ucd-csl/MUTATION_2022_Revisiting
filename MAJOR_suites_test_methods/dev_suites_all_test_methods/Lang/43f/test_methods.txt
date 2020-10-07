@@ -1,0 +1,8 @@
+org.apache.commons.lang.text.ExtendedMessageFormatTest
+testBuiltInDateTimeFormat()
+testOverriddenBuiltinFormat()
+testBuiltInChoiceFormat()
+testEscapedQuote_LANG_477()
+testExtendedFormats()
+testExtendedAndBuiltInFormats()
+testBuiltInNumberFormat()

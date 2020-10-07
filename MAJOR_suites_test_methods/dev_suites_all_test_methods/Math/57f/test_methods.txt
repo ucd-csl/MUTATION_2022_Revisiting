@@ -1,0 +1,5 @@
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest
+testPerformClusterAnalysisDegenerate()
+testCertainSpace()
+testSmallDistances()
+dimension2()

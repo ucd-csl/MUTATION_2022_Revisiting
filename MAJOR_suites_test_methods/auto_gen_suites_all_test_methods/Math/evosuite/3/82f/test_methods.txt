@@ -1,0 +1,6 @@
+org.apache.commons.math.optimization.linear.SimplexSolver_ESTest
+test0()
+test1()
+test2()
+test3()
+test4()

@@ -1,0 +1,12 @@
+org.apache.commons.codec.language.bm.Lang_ESTest
+test0()
+org.apache.commons.codec.language.bm.PhoneticEngine_ESTest
+test0()
+test1()
+test2()
+test3()
+test4()
+test5()
+test6()
+org.apache.commons.codec.language.bm.Rule_ESTest
+test0()

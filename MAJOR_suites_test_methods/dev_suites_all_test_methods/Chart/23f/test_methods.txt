@@ -1,0 +1,6 @@
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests
+testDrawWithNullInfo()
+testSerialization()
+testCloning()
+testHashcode()
+testEquals()

@@ -1,0 +1,17 @@
+org.apache.commons.math.optimization.linear.SimplexSolverTest
+testRestrictVariablesToNonNegative()
+testEpsilon()
+testUnboundedSolution()
+testSimplexSolver()
+testTrivialModel()
+testInfeasibleSolution()
+testMath272()
+testModelWithNoArtificialVars()
+testMinimization()
+testLargeModel()
+testSolutionWithNegativeDecisionVariable()
+org.apache.commons.math.optimization.linear.SimplexTableauTest
+testInitialization()
+testdiscardArtificialVariables()
+testTableauWithNoArtificialVars()
+testSerial()

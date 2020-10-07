@@ -1,0 +1,7 @@
+org.apache.commons.lang.time.StopWatchTest
+testBadStates()
+testLang315()
+testStopWatchSimpleGet()
+testStopWatchSimple()
+testStopWatchSplit()
+testStopWatchSuspend()

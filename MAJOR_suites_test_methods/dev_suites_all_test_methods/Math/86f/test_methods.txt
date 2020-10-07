@@ -1,0 +1,14 @@
+org.apache.commons.math.linear.CholeskyDecompositionImplTest
+testMatricesValues()
+testNotSymmetricMatrixException()
+testDimensions()
+testMath274()
+testNonSquare()
+testNotPositiveDefinite()
+testLLowerTriangular()
+testLTTransposed()
+testAEqualLLT()
+org.apache.commons.math.linear.CholeskySolverTest
+testSolve()
+testDeterminant()
+testSolveDimensionErrors()

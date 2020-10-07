@@ -1,0 +1,10 @@
+com.google.gson.DefaultDateTypeAdapterTest
+testInvalidDatePattern()
+testDateSerialization()
+testDatePattern()
+testFormattingInEnUs()
+testDateDeserializationISO8601()
+testParsingDatesFormattedWithSystemLocale()
+testFormattingInFr()
+testFormatUsesDefaultTimezone()
+testParsingDatesFormattedWithUsLocale()

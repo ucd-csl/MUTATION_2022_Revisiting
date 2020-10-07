@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.InlineObjectLiterals_ESTest
+test0()

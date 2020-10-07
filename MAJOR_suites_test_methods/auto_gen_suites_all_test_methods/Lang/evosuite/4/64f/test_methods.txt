@@ -1,0 +1,3 @@
+org.apache.commons.lang.enums.ValuedEnum_ESTest
+test0()
+test1()

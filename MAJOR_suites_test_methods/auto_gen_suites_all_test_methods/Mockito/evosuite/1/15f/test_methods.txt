@@ -1,0 +1,3 @@
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter_ESTest
+test0()
+test1()

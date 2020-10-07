@@ -1,0 +1,14 @@
+org.apache.commons.collections4.keyvalue.MultiKeyTest
+testGetIndexed()
+testGetKeysSimpleConstructor()
+testConstructorsByArrayNull()
+testSize()
+testConstructors()
+testGetKeysArrayConstructorCloned()
+testEqualsAfterSerializationOfDerivedClass()
+testConstructorsByArray()
+testEqualsAfterSerialization()
+testHashCode()
+testGetKeysArrayConstructorNonCloned()
+testEquals()
+org.apache.commons.collections4.map.MultiKeyMapTest

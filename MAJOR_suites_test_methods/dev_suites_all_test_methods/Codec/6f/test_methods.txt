@@ -1,0 +1,11 @@
+org.apache.commons.codec.binary.Base64InputStreamTest
+testCodec98NPE()
+testRead0()
+testBase64InputStreamByChunk()
+testMarkSupported()
+testReadOutOfBounds()
+testReadNull()
+testCodec101()
+testBase64EmptyInputStreamPemChuckSize()
+testBase64EmptyInputStreamMimeChuckSize()
+testBase64InputStreamByteByByte()

@@ -1,0 +1,9 @@
+org.apache.commons.math.stat.FrequencyTest
+testEmptyTable()
+testAdd()
+testPcts()
+testToString()
+testAddNonComparable()
+testIntegerValues()
+testCounts()
+testSerial()

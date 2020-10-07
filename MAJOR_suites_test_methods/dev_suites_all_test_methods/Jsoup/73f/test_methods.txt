@@ -1,0 +1,6 @@
+org.jsoup.helper.W3CDomTest
+simpleConversion()
+namespacePreservation()
+convertsGoogleLocation()
+handlesInvalidAttributeNames()
+convertsGoogle()

@@ -1,0 +1,5 @@
+org.apache.commons.collections4.TrieUtilsTest
+testUnmodifiableTrie()
+org.apache.commons.collections4.trie.PatriciaTrie2Test
+org.apache.commons.collections4.trie.PatriciaTrieTest
+org.apache.commons.collections4.trie.UnmodifiableTrieTest

@@ -1,0 +1,6 @@
+org.mockito.internal.matchers.Equality_ESTest
+test0()
+test1()
+test2()
+test3()
+test4()

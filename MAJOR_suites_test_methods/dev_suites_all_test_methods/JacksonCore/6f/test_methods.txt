@@ -1,0 +1,6 @@
+com.fasterxml.jackson.core.TestJsonPointer
+testSimplePath()
+testWonkyNumber173()
+testLongNumbers()
+testQuotedPath()
+testIZeroIndex()

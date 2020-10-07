@@ -1,0 +1,13 @@
+org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest
+testQuinticMin()
+testSinMin()
+org.apache.commons.math.optimization.general.PowellOptimizerTest
+testQuadratic()
+testMaximizeQuadratic()
+testSumSinc()
+org.apache.commons.math.optimization.univariate.BrentOptimizerTest
+testQuinticMax()
+testQuinticMin()
+testMinEndpoints()
+testQuinticMinStatistics()
+testSinMin()

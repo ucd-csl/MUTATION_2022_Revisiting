@@ -1,0 +1,2 @@
+com.fasterxml.jackson.databind.cfg.BaseSettings_ESTest
+com.fasterxml.jackson.databind.cfg.notGeneratedAnyTest()

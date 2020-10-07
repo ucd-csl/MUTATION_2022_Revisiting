@@ -1,0 +1,5 @@
+org.jsoup.helper.W3CDomTest
+simpleConversion()
+namespacePreservation()
+handlesInvalidAttributeNames()
+convertsGoogle()

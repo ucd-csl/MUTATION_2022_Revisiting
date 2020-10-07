@@ -1,0 +1,13 @@
+org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter_ESTest
+test0()
+org.mockito.internal.configuration.injection.filter.MockCandidateFilter_ESTest
+org.mockito.internal.configuration.injection.filter.notGeneratedAnyTest()
+org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter_ESTest
+test0()
+test1()
+test2()
+org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter_ESTest
+test0()
+test1()
+org.mockito.internal.configuration.injection.PropertyAndSetterInjection_ESTest
+test0()

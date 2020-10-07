@@ -1,0 +1,10 @@
+org.apache.commons.math.stat.regression.SimpleRegressionTest
+testClear()
+testCorr()
+testNaNs()
+testPerfect()
+testSSENonNegative()
+testPerfectNegative()
+testNorris()
+testInference()
+testRandom()

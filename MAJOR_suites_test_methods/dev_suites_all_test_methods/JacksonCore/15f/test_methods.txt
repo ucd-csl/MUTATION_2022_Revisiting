@@ -1,0 +1,16 @@
+com.fasterxml.jackson.core.filter.BasicParserFilteringTest
+testSingleMatchFilteringWithPath()
+testNotAllowMultipleMatches()
+testMultipleMatchFilteringWithPath1()
+testMultipleMatchFilteringWithPath2()
+testMultipleMatchFilteringWithPath3()
+testSingleMatchFilteringWithoutPath()
+testNonFiltering()
+testIndexMatchWithPath1()
+testIndexMatchWithPath2()
+testAllowMultipleMatches()
+com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest
+testSimpleWithPath()
+testSimpleNoPath()
+testSimplestNoPath()
+testSimplestWithPath()

@@ -1,0 +1,9 @@
+org.apache.commons.math.optimization.fitting.GaussianFitterTest
+testFit01()
+testFit02()
+testFit03()
+testFit04()
+testFit05()
+testFit06()
+testFit07()
+testMath519()

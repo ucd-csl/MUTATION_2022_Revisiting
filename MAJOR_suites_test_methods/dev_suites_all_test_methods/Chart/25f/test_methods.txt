@@ -1,0 +1,10 @@
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests
+testDrawWithNullInfo()
+testSerialization()
+testDrawWithNullMeanVertical()
+testDrawWithNullDeviationVertical()
+testDrawWithNullMeanHorizontal()
+testCloning()
+testHashcode()
+testDrawWithNullDeviationHorizontal()
+testEquals()

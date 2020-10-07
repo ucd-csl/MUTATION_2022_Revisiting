@@ -1,0 +1,5 @@
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory_ESTest
+test0()
+test1()
+test2()
+test3()
