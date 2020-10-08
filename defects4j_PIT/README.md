@@ -99,7 +99,14 @@ defects4j mutation3 [-p project] [-v version] [-t placeholder] [-a test_methods_
 `defects4j mutation3 -p Time -v 1f -t x::x -a MAJOR_suites_test_methods/dev_suites/Time/evosuite/1/dev_test_methods.txt -w . -o mutation_results`<br/>
 <br/>
 Redundant options - [-r], [-s], [-i], [-e] <br/>
-
 <br/>
 
-**run_triggering_test_identification.pl** - bjsdg]fd
+### Triggering Tests:
+
+**run_triggering_test_identification.pl** - Identifies triggering **test methods** of a test suite of a specified bug. Output to a .properties file in the specified out_dir.<br/>
+<br/>
+run_triggering_test_identification.pl [-p project] [-v version] [-o out_dir] [-d test_suite_dir]<br/>
+<br/>
+`run_triggering_test_identification.pl -p Chart -v 11f -o triggering_tests -d test_suites/fixed_suties/Chart/evosuite/5`<br/>
+<br/>
+Redundant options - [-f], [-D], [-t]<br/>
