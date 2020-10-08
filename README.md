@@ -16,7 +16,7 @@ defects4j_PIT was extended from René Just's defects4j project found here: https
 
 ## defects4j_PIT
 
-This is the extended version of defects4j framework that was used. The PIT Mutation tool (https://pitest.org/) was intergrated into the defects4j framewok. Several other existing scripts were extended to allow MAJOR to operate at a test method level. See README for further details.
+This is the extended version of defects4j framework that was used. The PIT Mutation tool (https://pitest.org/) was intergrated into the defects4j framewok. Several other existing scripts were extended to allow MAJOR to operate at a test method level. See https://github.com/SteGaff7/Mutant_Fault_Coupling/blob/master/defects4j_PIT/README.md for further details.
 
 ## Fixed Suites
 
