@@ -55,11 +55,38 @@ where these instructions say to use `defects4j`.
 
 ### PIT:
 
-**run_pit.pl** - Runs PIT mutation analysis on a bug
+**run_pit.pl** - Runs PIT mutation analysis on a bug with a test suite<br/>
 Adapted from run_mutation.pl - some redundant lines of code and redundant command line options<br/>
 <br/>
 run_pit.pl [-p project] [-v version] [-t tmp_dir] [-o out_dir] [-d test_suite_dir]<br/>
+<br/>
 `run_pit.pl -p Time -v 1f -t scratch/tmp_dir -o mutation_results -d test_suites/fixed_suties/Time/evosuite/2`<br/>
 <br/>
-Redundant options - [-f], [-A], [-i]
+Redundant options - [-f], [-A], [-i], [-m]
+<br/>
 
+**run_pit_dev.pl** - Runs PIT mutation analysis on a bug with the developer test suite<br/>
+Adapted from run_mutation.pl - some redundant lines of code and redundant command line options<br/>
+<br/>
+run_pit_dev.pl [-p project] [-v version] [-t tmp_dir] [-o out_dir]<br/>
+<br/>
+`run_pit_dev.pl -p Time -v 1f -t scratch/tmp_dir -o mutation_results`<br/>
+<br/>
+Redundant options - [-f], [-A], [-i], [-d], [-m]
+
+### MAJOR:
+
+**d4j-mutation2** - Runs MAJOR mutation analysis on a checked out bug with a specified test suite and file containing list of test methods. The current defects4j mutation command runs MAJOR mutation on a test suite at test class level or with one test method if -t option is used. This script runs MAJOR mutation with all test methods and outputs each test method to it's own kill map in specified output directory<br/>
+<br/>
+defects4j mutation2 [-p project] [-v version] [-g generator] [-n seed] [-t placeholder] [-s test_suite] [-a test_methods_file] [-w work_dir] [-o out_dir] <br/>
+<br/>
+`defects4j mutation2 -p Time -v 1f -g evosuite -n 1 -t x::x -s test_suites/fixed_suties/Time/evosuite/2/Time-1f.tar.bz2 -a MAJOR_suites_test_methods/gen_suites/Time/evosuite/1/test_methods.txt -w . -o mutation_results`<br/>
+<br/>
+Notes on command options:<br/>
+- g - the generator that created this test suite, used for output path
+- n - the seed used for this suite generation, used for output path
+- t - simply a placeholder that must be present in form x::x
+- s - test suite to use
+- a - file that contains a list of test methods in format found in "MAJOR_suites_test_methods" directory
+<br/>
+**run_triggering_test_identification.pl** - 
