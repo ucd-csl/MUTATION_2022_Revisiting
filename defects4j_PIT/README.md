@@ -53,9 +53,11 @@ where these instructions say to use `defects4j`.
 
 ## Using defects4j_PIT
 
+These scripts were created/adpated purely for research purpose and at times contain redundant code, are not the most efficient and are quite "hacky". Although they provide a means to implement the changes outlined above. Some redundant options are still available but should be avoided to ensure scripts work correctly. These options, redundant lines and inefficient workarounds may be removed in time for a more optimal integreation into the framework.
+
 ### PIT:
 
-**run_pit.pl** - Runs PIT mutation analysis on a bug with a test suite<br/>
+**run_pit.pl** - Runs PIT mutation analysis on a bug with test suite in dir specified<br/>
 Adapted from run_mutation.pl - some redundant lines of code and redundant command line options<br/>
 <br/>
 run_pit.pl [-p project] [-v version] [-t tmp_dir] [-o out_dir] [-d test_suite_dir]<br/>
