@@ -89,4 +89,17 @@ Notes on command options:<br/>
 - s - test suite to use
 - a - file that contains a list of test methods in format found in "MAJOR_suites_test_methods" directory
 <br/>
-**run_triggering_test_identification.pl** - 
+Redundant options - [-r], [-s], [-i], [-e] <br/>
+<br/>
+
+**d4j-mutation3** - Runs MAJOR mutation analysis on a checked out bug with the developer test suite and file containing list of developer test methods. The current defects4j mutation command runs MAJOR mutation on a test suite at test class level or with one test method if -t option is used. This script runs MAJOR mutation with all test methods and outputs each test method to it's own kill map in specified output directory<br/>
+<br/>
+defects4j mutation3 [-p project] [-v version] [-t placeholder] [-a test_methods_file] [-w work_dir] [-o out_dir] <br/>
+<br/>
+`defects4j mutation3 -p Time -v 1f -t x::x -a MAJOR_suites_test_methods/dev_suites/Time/evosuite/1/dev_test_methods.txt -w . -o mutation_results`<br/>
+<br/>
+Redundant options - [-r], [-s], [-i], [-e] <br/>
+
+<br/>
+
+**run_triggering_test_identification.pl** - bjsdg]fd
