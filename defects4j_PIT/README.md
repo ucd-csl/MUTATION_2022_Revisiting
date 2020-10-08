@@ -53,7 +53,7 @@ where these instructions say to use `defects4j`.
 
 ## Using defects4j_PIT
 
-These scripts were created/adpated purely for research purpose and at times contain redundant code, are not the most efficient and are quite "hacky". Although they provide a means to implement the changes outlined above. Some redundant options are still available but should be avoided to ensure scripts work correctly. These options, redundant lines and inefficient workarounds may be removed in time for a more optimal integreation into the framework.
+These scripts were created/adapated purely for research purpose and at times contain redundant code, are not the most efficient and are quite "hacky". Although they provide a means to implement the changes outlined above. Some redundant options are still available but should be avoided to ensure scripts work correctly. These redundant options, redundant lines and inefficient workarounds may be removed in time for a more optimal integreation into the framework.
 
 ### PIT:
 
@@ -112,3 +112,18 @@ run_triggering_test_identification.pl [-p project] [-v version] [-o out_dir] [-d
 `run_triggering_test_identification.pl -p Chart -v 11f -o triggering_tests -d test_suites/fixed_suties/Chart/evosuite/5`<br/>
 <br/>
 Redundant options - [-f], [-D], [-t]<br/>
+
+## Modified Defects4j Files:
+
+Each projects.build.xm file<br/>
+Defects4j.build.xml file<br/>
+framework/lib -- has new jar files<br/>
+framework/core/Mutation<br/>
+framework/core/Project<br/>
+framework/core/Util<br/>
+framework/bin/ ++run_pit.pl<br/>
+framework/bin/ ++run_pit_dev.pl<br/>
+framework/bin/ ++run_triggering_test_identification.pl<br/>
+framework/bin/defects4j<br/>
+framework/bin/d4j/ ++d4j-mutation2<br/>
+framework/bin/d4j/ ++d4j-mutation3<br/>
