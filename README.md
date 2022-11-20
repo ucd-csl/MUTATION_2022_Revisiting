@@ -1,6 +1,6 @@
 # Mutant_Fault_Coupling
 
-This repo contains the adapted version of defects4j and the data from the research paper: INSERT PAPER <br/>
+This repo contains the adapted version of defects4j and the data from the research paper: [Re-visiting the coupling between mutants and real faults with Defects4J 2.0](https://doi.ieeecomputersociety.org/10.1109/ICSTW55395.2022.00042) <br/>
 defects4j_PIT was extended from René Just's defects4j project found here: https://github.com/rjust/defects4j
 
 ## Contents of Repo
